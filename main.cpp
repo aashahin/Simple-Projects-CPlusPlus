@@ -15,7 +15,7 @@ int main() {
     cin>>find;
     print("Enter index to end: ");
     cin>>index;
-    print("Enter letter to replace: ");
+    print("Enter words to replace: ");
     cin>>replace;
     name.replace(name.find(find),index,replace);
     print(name);
